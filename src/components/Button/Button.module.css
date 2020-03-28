@@ -1,0 +1,13 @@
+.button {
+  height: 10vh;
+  width: 10vh;
+  padding: 1em;
+  margin: 1em;
+  background-color: antiquewhite;
+  border: 5pt solid black;
+  transition: 0.5s;
+}
+
+:hover.button {
+  background-color: palegoldenrod;
+}
