@@ -1,7 +1,9 @@
 import React from "react";
 
+import css from "./Counter.module.css";
+
 function Counter({ counter }) {
-  return <p>{counter}</p>;
+  return <p className={css.counter}>{counter}</p>;
 }
 
 Counter.defaultProps = {

@@ -4,8 +4,9 @@
   padding: 1em;
   margin: 1em;
   background-color: antiquewhite;
-  border: 5pt solid black;
+  border: 3pt solid black;
   transition: 0.5s;
+  place-content: center;
 }
 
 :hover.button {
