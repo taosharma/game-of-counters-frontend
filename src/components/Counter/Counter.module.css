@@ -1,6 +1,7 @@
 .counter {
-  font-size: 10vh;
+  font-size: 2em;
   font-weight: bold;
   padding: 1em;
   margin: 1em;
+  overflow: hidden;
 }

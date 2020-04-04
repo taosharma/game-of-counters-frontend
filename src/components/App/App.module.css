@@ -1,3 +1,27 @@
 .main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   place-content: center;
+}
+.counter1Grid {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.counter2Grid {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+h1 {
+  grid-column: 1;
+  grid-row: 1;
+  place-self: center;
+}
+
+p {
+  grid-column: 3;
+  grid-row: 1;
+  place-self: center;
 }
