@@ -15,3 +15,8 @@
   background-color: palegoldenrod;
   transform: scale(1.2);
 }
+
+.button:active {
+  background-color: rgb(236, 87, 1);
+  transform: scale(1);
+}
